@@ -7,11 +7,30 @@
         <dict>
             <key>assets</key>
             <array>
+                <!-- 1. Đường dẫn tải file IPA -->
                 <dict>
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
                     <string>https://github.com/chauhungphong2020/App-Yotube/releases/download/v1/YouTube_21.24.3_1782602314.ipa</string>
+                </dict>
+                <!-- 2. Logo hiển thị khi đang tải trên màn hình chính (Kích thước 57x57 hoặc 60x60) -->
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>needs-shine</key>
+                    <false/>
+                    <key>url</key>
+                    <string>https://DUONG_DAN_DEN_LOGO_CUA_BAN.png</string>
+                </dict>
+                <!-- 3. Logo hiển thị trong App Store nội bộ / iTunes (Kích thước 512x512 hoặc 1024x1024) -->
+                <dict>
+                    <key>kind</key>
+                    <string>full-size-image</string>
+                    <key>needs-shine</key>
+                    <false/>
+                    <key>url</key>
+                    <string>https://View command⌘ forward slash/then  command⌘ rR </string>
                 </dict>
             </array>
             <key>metadata</key>
@@ -29,4 +48,3 @@
     </array>
 </dict>
 </plist>
- 
